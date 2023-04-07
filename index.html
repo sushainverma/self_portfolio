@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sushain verma</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="container">
+        <i class="fa-solid fa-bars" id="ham_b" onclick="ham()"></i>
+        <div class="sideBar" id="s-bar">
+            <i class="fa-solid fa-xmark" id="cross" onclick="close_ham()"></i>
+            <ul>
+                <li><a href="/new.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="/newcontact.html">CONTACT</a></li>
+                <li> <a href="/skills.html">SKILLS</a></li>
+                <li><a href="Resume sushain verma.pdf">CV</a></li>
+                <li><a href="#">MORE</a></li>
+            </ul>
+        </div>
+        <section class="me-services">
+        <div class="me">
+            <div class="content">
+                <div class="hello">Hi,I am</div> 
+                <div class="name">sushain verma</div>
+                <div class="abt">I am a Developer and Programmer.</div>
+                <button class="btn" href="Resume sushain verma.pdf">Download CV</button>
+            </div>
+            <div class="pic">
+                <div  class="devpic"><img src="dev.png"  alt="sushain verma"></div>
+            </div>
+        </div>
+
+    <section class="services">
+        <h1 class="services-heading">SERVICES</h1>
+        <div class="first-s-row">
+            <div class="hover">
+                <h2>CUSTOM WEBSITES DESIGN</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, incidunt. Maiores repellendus eligendi corrupti excepturi aut non, odit ex, amet error dolores similique molestias, laudantium minus rerum explicabo totam aspernatur vitae enim dolor eaque. Unde.</p>
+                <button class="read-more">READ MORE</button>
+            </div>
+            <div>
+                <h2>WORDPRESS INTEGRATION</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, incidunt. Maiores repellendus eligendi corrupti excepturi aut non, odit ex, amet error dolores similique molestias, laudantium minus rerum explicabo totam aspernatur vitae enim dolor eaque. Unde.</p>
+                <button class="read-more">READ MORE</button>
+            </div>
+        </div>
+        
+        <div class="first-s-row">
+            <div>
+                <h2>APPLICATION DEVELOPMENT</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, incidunt. Maiores repellendus eligendi corrupti excepturi aut non, odit ex, amet error dolores similique molestias, laudantium minus rerum explicabo totam aspernatur vitae enim dolor eaque. Unde.</p>
+                <button class="read-more">READ MORE</button>
+            </div>
+            <div>
+                <h2>SEO & SEM SERVICES</h2>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, incidunt. Maiores repellendus eligendi corrupti excepturi aut non, odit ex, amet error dolores similique molestias, laudantium minus rerum explicabo totam aspernatur vitae enim dolor eaque. Unde.</P>
+                <button class="read-more">READ MORE</button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h1>Conteat</h1>
+            <p>21BCA1417@cuchd.in</p>
+            <p>7371936794</p>
+        </div>
+        <div>
+            <h1>Social</h1>
+            <p><a href="https://www.instagram.com/">Instagram</a></p>
+            <p><a href="https://twitter.com/home?lang=en">Twitter</a></p>
+        </div>
+        <div>
+            <h1>Education</h1>
+            <p>BCA</p>
+            <P>Chandigarh University</P>
+        </div>
+    </footer>
+</section>
+</section>
+
+
+<script>
+    let s_bar= document.getElementById("s-bar");
+    let ham_b= document.getElementById("ham_b");
+
+    let ham=()=>{
+        if(s_bar.style.display!='block'){
+            s_bar.style.display='block';
+            ham_b.style.display='none';
+        }        
+    }
+    
+    let close_ham=()=>{
+        if(s_bar.style.display='block'){
+            s_bar.style.display='none';
+            ham_b.style.display='block';
+        }    
+    }
+</script>
+</body>
+</html>
+

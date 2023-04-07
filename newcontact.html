@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+      *{
+          margin: 0;
+          padding: 0;
+      }
+
+      .container{
+          display: flex;
+          justify-content: flex-start;
+      }
+
+      .sideBar{
+          background-color: rgb(206, 203, 203);
+          width:10vw;
+          height: 100vh;
+      }
+
+      .sideBar ul li{
+          margin: 45px 9px;
+      }
+
+      .sideBar ul li a{
+          text-decoration: none;
+          color: rgb(10, 2, 2);
+      }
+
+      .contect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90vw;
+        margin-bottom: 20px;
+
+      }
+
+      .frm{
+        padding: 20px;
+        /* border: 2px solid black; */
+        border-radius: 15px 1px 0px 1px;
+        background-color: bisque;
+        box-shadow: 5px 10px 10px 2px rgb(76, 80, 82);
+      }
+
+      .form-text{
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bolder;
+      }
+
+      .frm div{
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .frm div label{
+        margin-right: 170px;
+      }
+
+      input{
+        width: 230px;
+        height: 25px;
+      }
+
+      .btn{
+      height: 27px;
+      width: 90px;
+      border: none;
+      border-radius: 9px;
+      margin: 10px 50px;
+      background-color: rgb(64, 178, 223);
+      cursor: pointer;
+      box-shadow: 5px 12px 13px -4px #888888;
+      }
+
+      .btn:hover{
+          background-color: antiquewhite;
+      }
+
+      
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="sideBar">
+            <ul>
+                <li><a href="new.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="/contect.html">CONTECT</a></li>
+                <li><a href="#">CV</a></li>
+                <li><a href="#">MORE</a></li>
+            </ul>
+        </div>
+    
+
+        <div class="contect">
+            <form class="frm">
+                <div id="emailHelp" class="form-text">We'll never share your details with anyone else.</div>
+                <hr>
+
+                <div class="contect_name">
+                    <label for="name" class="form-label">Name:</label><br>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+
+                <div class="contect_email">
+                  <label for="email" class="form-label">Email:</label><br>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                </div>
+            
+                <div class="contect_phone">
+                  <label for="phone" class="form-label">Phone:</label><br>
+                  <input type="number" class="form-control" id="phone">
+                </div>
+
+                <div class="contect_message">
+                  <label for="message" class="form-label">Message:</label><br>
+                  <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                </div>
+            
+                <button type="submit" class="btn">Submit</button>
+              </form>
+        </div>
+    </section>
+</body>
+</html>
+

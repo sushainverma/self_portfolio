@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* hamburger */
+
+.fa-solid{
+    margin: 20px;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+}
+
+#cross{
+    margin-left: 90px;
+    padding: 10px;
+    color: aqua;
+    background-color: red;
+    position: relative;
+}
+
+.container{
+    display: flex;
+}
+
+.sideBar{
+    background-color: rgb(206, 203, 203);
+    width:40vw;
+    height: 200vh;
+    display: none;
+}
+
+
+.sideBar ul li{
+    margin: 45px 9px;
+}
+
+.sideBar ul li a{
+    text-decoration: none;
+    color: rgb(10, 2, 2);
+}
+
+.me-services{
+    width: 100vw;
+}
+
+.me{
+    /* background-color: aqua; */
+    width: auto;
+    height: 50vh;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 50px;
+}
+.hello{
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    margin: 3px;
+}
+
+.name{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 3px;
+}
+.abt{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 3px;
+    font-size: larger;
+}
+
+.btn{
+    height: 27px;
+    width: 90px;
+    border: none;
+    border-radius: 9px;
+    margin: 4px;
+    background-color: rgb(64, 178, 223);
+    cursor: pointer;
+    box-shadow: 5px 12px 13px -4px #888888;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+}
+
+.pic img{
+    height: 50vh;
+}
+
+
+
+
+/* contect starts here */
+.frm{
+    display:flex ;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* background-color: aqua; */
+    flex-direction: column;
+    /* border: 1px solid black; */
+    box-shadow: 5px 12px 13px -4px #888888;
+    padding: 2rem;
+    margin: 200px 0px 0px 300px;
+}
+
+.frm div{
+    margin: 13px;
+}
+
+.contact_name{
+   
+}
+
+.form-label{
+    margin: 0;
+}
+
+.services{
+    
+}
+
+.services-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    color: rgb(8, 8, 8);
+    /* width: 90px;  */
+    border: none;
+    border-radius: 9px;
+    margin:4px;
+    margin-bottom: 30px;
+    background-color: rgb(64, 178, 223);
+    box-shadow: 5px 12px 13px -4px #888888;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.first-s-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-s-row div{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px;
+    height: 15rem;
+    width: 35rem;
+    padding: 10px;
+    box-shadow: 5px 12px 13px -4px #888888;
+}
+.first-s-row div:hover{
+    padding:8px ;
+}
+
+.first-s-row div h2{
+    font-family: 'Roboto Mono', monospace;
+}
+.first-s-row div p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+.first-s-row div h2,p,button{
+    margin: 9px 0px 3px 0px;
+}
+
+.read-more{
+    height: 27px;
+    width: 90px;
+    border: none;
+    border-radius: 9px;
+    margin: 4px;
+    background-color: rgb(64, 178, 223);
+    cursor: pointer;
+    box-shadow: 5px 12px 13px -4px #56c4e6;
+}
+
+.read-more:hover{
+    background-color: antiquewhite;
+    border: 1px solid blue;
+}
+
+
+/* footer starts from here */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 10rem;
+    margin: 30px;
+    box-shadow: 5px 12px 13px -1px #979999;
+}
+
+footer div h1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
